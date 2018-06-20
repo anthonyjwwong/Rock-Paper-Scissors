@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors</title>
+  <meta charset="UTF-8">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Tajawal:300,400" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>Rock-Paper-Scissors</h1>
+  </header>
+  <main>
+    <div class="player">
+      <h2>- Player - <span class="playerScore">0</span> - </h2>
+      <div class="player-move-select">
+        <div class="select">
+          <img src="img/rock.png">
+          <button class="rock">Rock</button>
+        </div>
+        <div class="select">
+          <img src="img/paper.png">
+          <button class="paper">Paper</button>
+        </div>
+        <div class="select">
+          <img src="img/scissors.png">
+          <button class="scissors">Scissors</button>
+        </div>
+      </div>
+        <p><span class="playerChoice"></span></p>
+    </div>
+
+      <div class="outcome-txt">
+
+        <p class="vs">Win:<br><span class="winner"></span></p>
+
+      </div>
+
+    <div class="computer">
+      <h2>- Computer - <span class="computerScore">0</span> - </h2>
+      <div class="computer-move-select">
+        <div class="select">
+          <img src="img/rock.png">
+
+        </div>
+        <div class="select">
+          <img src="img/paper.png">
+
+        </div>
+        <div class="select">
+          <img src="img/scissors.png">
+
+        </div>
+      </div>
+      <p><span class="computerChoice"></span></p>
+    </div>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body {
+  font-family: "Tajawal", sans-serif;
+}
+
+main {
+  display: flex;
+  width: 80vw;
+  margin: 25vh auto;
+  justify-content: space-between;
+
+}
+
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.player-move-select {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin: 2% auto 0;
+}
+
+.computer-move-select {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin: 2% auto 0;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5%;
+  color: #b10;
+}
+
+
+.select {
+  display:flex;
+  flex-direction: column;
+
+}
+
+img {
+  width:100px;
+  height: 100px;
+}
+
+button {
+  margin-top: 30px;
+  background: white;
+  color: #0ab;
+  outline: none;
+  border: 1px solid #0ab;
+  border-radius: 10px;
+  padding: 10px 20px 10px;
+}
+
+.outcome-txt p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  color: #0ab;
+  padding-top: 30px;
+  
+}
+
+.player p, .computer p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #b10;
+}
+
+.winner {
+  color: #b10;
+}
+
+.computer p {
+  margin-top:70px;
+}
+
+.vs {
+  text-align: center;
+}
