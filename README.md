@@ -1,7 +1,7 @@
 # Rock Paper Scissors Project(Odin Project)
 
 ## What is it?
-Simple Rock Paper Scissors Game vs the computerScore
+Simple Rock Paper Scissors game created using HTML, Css and JavaScript.
 
 ## Win condition
 Play best to 10.
